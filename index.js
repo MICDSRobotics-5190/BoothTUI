@@ -54,7 +54,7 @@ reqp(formatURI(config.target))
 		left: 'center',
 		width: '45%',
 		height: '50%',
-		content: '{bold}Top 20 Teams{/bold}\n' + top5,
+		content: `{bold}Top ${config.show} Teams{/bold}\n${top5}`,
 		tags: true,
 		style: {
 			fg: 'white',
@@ -80,7 +80,7 @@ reqp(formatURI(config.target))
 		left: '0',
 		width: '25%',
 		height: '50%',
-		content: '{bold}5190 Info{/bold}\nLocation: Saint Louis, MO\nSchooL: MICDS',
+		content: '{bold}5190 Info{/bold}\nLocation: Saint Louis, MO\nSchool: MICDS',
 		tags: true,
 		style: {
 			fg: 'white',
